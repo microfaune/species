@@ -1,0 +1,120 @@
+.article-content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.BirdPage {
+  background-color: #306279;
+  padding: 10px;
+}
+
+.Caroussel {
+  max-height: 50%;
+}
+
+h2 {
+  color: black;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+h3 {
+  color: ghostwhite;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+h4 {
+  margin-top: 15px;
+  color: coral;
+  font-size: large;
+  font-family: fantasy;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h5 {
+  margin-top: 15px;
+  color: ivory;
+  font-size: large;
+  font-family: fantasy;
+  font-weight: lighter;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+p {
+  color: black;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: normal;
+  text-align: justify;
+}
+
+span {
+  color: black;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+a {
+  color: aliceblue;
+}
+ul {
+  list-style: none;
+  font-size: medium;
+}
+
+li::before {
+  width: 1em;
+  margin-left: -1em;
+}
+
+audio {
+  width: 250px;
+  height: 30px;
+  background-color: black;
+}
+
+.source {
+  color: black;
+  font-size: small;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-align: justify;
+}
+
+.sound_type {
+  font-family: fantasy;
+  color: aliceblue;
+  text-align: left;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.form-control {
+  margin-bottom: 9px;
+}
+
+/* .slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+} */
+
+/* @media (max-width: 900px) {
+  .carousel {
+    width: auto;
+    height: auto;
+  }
+} */

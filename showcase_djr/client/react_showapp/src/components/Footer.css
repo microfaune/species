@@ -1,0 +1,37 @@
+.main-footer {
+  color: rgba(149, 172, 19, 0.801);
+  background-color: #232529;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+.copyright {
+  font-family: fantasy;
+  font-size: x-small;
+  color: white;
+  text-align: center;
+}
+
+.d-inline-block {
+  margin-right: 10px;
+}
+
+.contact {
+  padding-top: 20px;
+  font-family: fantasy;
+  font-size: medium;
+  color: rgba(149, 172, 19, 0.801);
+  text-align: start;
+}
+
+.logo {
+  padding-top: 15px;
+  text-align: end;
+}
+
+a:hover,
+a:active {
+  color: #cebf1a;
+  text-decoration: none;
+  outline: 0;
+}

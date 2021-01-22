@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+.skeleton,
+.ouvrir {
+  background-color: rgb(0, 0, 0);
+}
+
+.menu {
+  background-color: rgba(62, 124, 12, 0.644);
+}
+
+h1 {
+  font-size: 25px;
+  font-family: fantasy;
+  color: rgb(165, 13, 26);
+  /* color: rgb(150, 165, 13); */
+  padding: 20px;
+  margin-bottom: -8px;
+  font-weight: lighter;
+  display: block;
+}
+
+.French_main_title {
+  font-size: 25px;
+  font-family: fantasy;
+  color: rgb(165, 61, 13);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+.English_main_title {
+  font-size: 15px;
+  color: rgb(16, 17, 11);
+  text-align: center;
+}
+.Latin_main_title,
+.infos {
+  font-size: 15px;
+  color: rgb(197, 206, 206);
+  text-align: center;
+  font-style: oblique;
+}
+
+footer,
+li {
+  font-size: 15px;
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+}
+/* nav bar */
+
+/* Style the active class (and buttons on mouse-over) */
+.active,
+.btn:hover {
+  background-color: rgba(62, 124, 12, 0.644);
+}
+/* ------------------- */
+.nav-link {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.w-100 {
+  height: 74vh !important;
+  object-fit: cover;
+}
+
+.dimmap {
+  min-height: 400px;
+}
+
+body {
+  background-color: cadetblue;
+  background-size: cover;
+  opacity: 0.9;
+}
+/* dans background ; linear-gradient(rgba(126, 125, 125, 0.55), rgba(10, 10, 10, 0.55)), */
+/*background: url("../species_images/1_Aegithalos caudatus_Mesange a longue queue_4.jpg");*/
+
+.article {
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.picture {
+  height: 150px;
+}
+
+.Resources,
+.Audios,
+li {
+  list-style: none;
+  font-size: 15px;
+  background-color: transparent;
+  padding: 1px;
+  text-align: center;
+}
+
+.border {
+  border-radius: 0px;
+}
+.couleur {
+  background-color: rgb(126, 78, 25);
+  color: rgb(255, 255, 255);
+}
+/* ==========Bistrot========== */
+
+.card-text {
+  letter-spacing: 2px;
+}
+
+.imgMenu {
+  height: 340px !important;
+  object-fit: cover !important;
+}
+
+hr.style-eight {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: medium double white;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 250px !important;
+}
+
+hr.style-eight:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+  background: transparent;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+/*a {
+	text-decoration: none;
+	}*/
+
+.txt {
+  color: white;
+}
+
+.hauteurbox {
+  min-height: 90vh;
+}
+
+/* ==========Présentation========== */
+/* 
+	.aboutus-section {
+	padding: 90px 0;
+	} */
+
+.aboutus-section {
+  padding: 90px 0;
+}
+.aboutus-title {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin: 0 0 39px;
+  padding: 0 0 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+.aboutus-title::after {
+  background: #000 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 180px;
+}
+.aboutus-text {
+  color: #606060;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 35px;
+}
+.aboutus {
+  width: 78vw;
+}
+
+a:hover,
+a:active {
+  color: #020202;
+  text-decoration: none;
+  outline: 0;
+}
+
+.aboutus-more {
+  border: 2px solid #020202;
+  border-radius: 25px;
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 7px 20px;
+}
+
+#titlePartner {
+  height: 11vh;
+}
+
+@media (max-width: 768px) {
+  .largeurcar {
+    height: 42vh !important;
+    width: 90vw !important;
+    margin-top: -1.9em !important;
+  }
+
+  .imgcar {
+    height: 42vh !important;
+    width: 90vw !important;
+  }
+
+  .aboutus {
+    padding: 1.5rem !important;
+  }
+
+  .aboutus-title {
+    font-size: 24px;
+  }
+
+  .aboutus-text {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .btn-group-lg > .btn,
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  .topPages {
+    margin-top: 0 !important;
+  }
+
+  hr.style-eight {
+    margin-bottom: 1rem !important;
+  }
+
+  .cardPages {
+    margin: 0 !important;
+    width: 69vw;
+    font-size: 15px;
+  }
+
+  .textBlock {
+    margin-bottom: 2rem !important;
+  }
+}

@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card text-white bg-dark mb-3 {
+  background-color: rgba(245, 245, 245, 0.4);
+}

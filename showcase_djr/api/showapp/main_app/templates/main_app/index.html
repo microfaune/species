@@ -1,0 +1,53 @@
+{% extends 'main_app/base.html' %}
+
+{% block content %}
+<main class="Main">
+    {% for bird in birdmania_api %}
+    <article class='article'>
+        
+        <h1 class="French_main_title">{{ bird.french_name }}</h1>
+        <h5 class="English_main_title">({{ bird.english_name }})</h5>
+        <h6 class="Latin_main_title">({{ bird.latin_name }})</h6>
+        <p>{{ bird.summary }}</p>
+        
+        <section class="Pictures">
+            <p>
+                {% for picture in bird.picture_set.all %}
+                <img class="picture" src="media/{{ picture.pictures }}" alt={{ bird.french_name }}/>
+                {% endfor %}
+            </p>
+        </section>
+        
+        <section class="Resources">
+            <h6 class="infos">En savoir plus</h6>
+            <p>
+                {% for resource in bird.resource_set.all|slice:":2" %}
+                <li><a href="{{ resource.url }}">{{ resource.title}}</a></li>
+                {% endfor %}
+            </p>
+            
+        </section>
+        
+        <section class="Audios">
+            {% for sound in bird.audio_set.all %}
+            <audio controls>
+                <source src="media/{{ sound.audio }}" type="audio/mp3">
+                <p>Votre navigateur ne prend pas en charge l'audio HTML5. Voici, à la place, un <a href="{{ sound.audio }}">lien sur l'audio</a>.</p>
+            </audio>
+            {% endfor %}
+            <div class="Resources">
+                <h6 class="infos">Écouter plus d'extraits sonores</h6>
+                <p>
+                    {% for resource in bird.resource_set.all|slice:"2:" %}
+                    <a href="{{ resource.url }}">{{ resource.title}}</a>
+                    {% endfor %}
+                </p>
+            </div>
+        </section>
+        
+    </article>
+    {% endfor %}
+</main>
+
+
+{% endblock %}

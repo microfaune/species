@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #232529;
+}
+
+h1 {
+  margin: 10px;
+  color: rgba(149, 172, 19, 0.801);
+  font-size: xx-large;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.link {
+  color: #239395;
+}
+
+a:hover,
+a:active {
+  color: #cebf1a;
+  text-decoration: none;
+  outline: 0;
+}
